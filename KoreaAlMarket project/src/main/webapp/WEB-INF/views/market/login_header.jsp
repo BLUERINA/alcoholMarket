@@ -115,9 +115,9 @@ function search() {
 	</div>
 <!--------------------------------------------------카테고리----------------------------------------------------------------->
 	<div class="categoryContainer">
-			<div class="alchol1"><a href="alchol11.do">양조주</a></div>
-			<div class="alchol2"><a href="alchol12.do">증류주</a></div>
-			<div class="alchol3"><a href="alchol13.do">혼성주</a></div>
+			<div class="FermentedLiquor_page"><a href="FermentedLiquor_page.do">양조주</a></div>
+			<div class="DistilledLiquor_page"><a href="DistilledLiquor_page.do">증류주</a></div>
+			<div class="CompoundedLiquor_page"><a href="CompoundedLiquor_page.do">혼성주</a></div>
 	</div>
 </body>
 </html>
