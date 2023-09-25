@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{margin:0; padding:0;}
+
+#main_box{
+	width:330px;
+	margin:auto;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	margin-ton: 10px;
+	margin-bottom: 10px;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 800;
+}
+
+.menu_box{
+	width: 90%;
+    margin: 10px auto;
+    padding : left 5%;
+    
+}
+
+.content {
+   /*  border: 1px solid red; */
+    float: left;
+    width: 30%;
+    higth: 400px;
+    margin: 40px 20px;
+    box-sizing: border-box;
+    /*  width:380px;
+    height:220px;
+    overflow:hidden;
+    margin:0 auto; */
+    
+}
+
+.img {
+	object-fit: cover;
+	width: 400px;
+    higth: 400px;
+	/* border: 1px solid red;
+    float: left;
+    
+    margin: 40px 20px;
+    box-sizing: border-box; */
+}
+
+.form-select{
+	width : 20%;
+}
+
+.name{
+	font-size: 20px;
+}

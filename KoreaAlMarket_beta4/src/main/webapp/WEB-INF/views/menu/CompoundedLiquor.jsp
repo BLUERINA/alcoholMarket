@@ -8,6 +8,7 @@
 <title>혼성주</title>
 
 <link rel="stylesheet" href="/market/resources/css/menu.css">
+<script src="/market/resources/js/jquery.js"></script>
 <script src="/market/resources/js/subMenuSelect.js"></script>
 
 <script>
@@ -18,7 +19,7 @@ function price() {
 	var price = document.getElementById('price');
 	var value = price.options[price.selectedIndex].value;	
 
-	location.href="alchol13.do?value="+value;
+	location.href="CompoundedLiquor_page.do?value="+value;
 	
 }
 
@@ -28,7 +29,7 @@ function degree() {
 	var degree = document.getElementById('degree');
 	var value = degree.options[degree.selectedIndex].value;	
 
-	location.href="alchol13.do?value="+value;
+	location.href="CompoundedLiquor_page.do?value="+value;
 	
 }
 
@@ -38,7 +39,7 @@ function volume() {
 	var volume = document.getElementById('volume');
 	var value = volume.options[volume.selectedIndex].value;	
 	
-	location.href="alchol13.do?value="+value;
+	location.href="CompoundedLiquor_page.do?value="+value;
 	
 }
 
@@ -48,9 +49,14 @@ function star() {
 	var star = document.getElementById('star');
 	var value = star.options[star.selectedIndex].value;
 	
-	location.href="alchol13.do?value="+value;
+	location.href="CompoundedLiquor_page.do?value="+value;
 	
 }
+
+$(document).ready(function(){
+	var degree = '${degree}';
+	$("#degree").val(degree)
+});
 		
 	
 </script>

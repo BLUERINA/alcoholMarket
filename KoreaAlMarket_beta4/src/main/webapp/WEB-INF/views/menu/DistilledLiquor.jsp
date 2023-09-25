@@ -18,7 +18,7 @@ function price() {
 	var price = document.getElementById('price');
 	var value = price.options[price.selectedIndex].value;	
 	
-	location.href="alchol12.do?value="+value;	
+	location.href="DistilledLiquor_page.do?value="+value;	
 }
 
 function degree() { 
@@ -27,7 +27,7 @@ function degree() {
 	var degree = document.getElementById('degree');
 	var value = degree.options[degree.selectedIndex].value;	
 
-	location.href="alchol12.do?value="+value;
+	location.href="DistilledLiquor_page.do?value="+value;
 	
 }
 
@@ -37,7 +37,7 @@ function volume() {
 	var volume = document.getElementById('volume');
 	var value = volume.options[volume.selectedIndex].value;	
 
-	location.href="alchol12.do?value="+value;
+	location.href="DistilledLiquor_page.do?value="+value;
 	
 }
 
@@ -47,7 +47,7 @@ function star() {
 	var star = document.getElementById('star');
 	var value = star.options[star.selectedIndex].value;
 	
-	location.href="alchol12.do?value="+value;
+	location.href="DistilledLiquor_page.do?value="+value;
 	
 }
 		
